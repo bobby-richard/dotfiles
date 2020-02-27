@@ -1,5 +1,19 @@
 # Bobby's take on forkmantis's take on Greg's take on Holman's dotfiles
 
+## Quickstart
+
+Run this:
+
+```sh
+cd ~
+git clone https://github.com/bobby-richard/dotfiles.git ~/dotfiles
+cd ~/dotfiles
+chmod +X **/*.sh
+./redot
+```
+
+The `redot` script will walk you through everything and won't make any change to your computer without asking permission first.
+
 ## Conventions
 
 ### Global Conventions
@@ -20,18 +34,6 @@
 For files that should not be checked into source control, add .hide to the name i.e creds.hide.symlink
 TODO: symlink these to dropbox/google drive
 
-## Usage
-
-Run this:
-
-```sh
-cd ~
-git clone https://github.com/forkmantis/dotfiles.git ~/dotfiles
-cd ~/dotfiles
-./redot
-```
-
-The `redot` script will walk you through everything and won't make any change to your computer without asking permission first.
 
 ## I want my own dotfiles, what do I do?
 
