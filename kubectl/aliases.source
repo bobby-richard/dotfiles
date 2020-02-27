@@ -1,0 +1,2 @@
+alias k="kubectl"
+alias ksc="kubectl config set-context"

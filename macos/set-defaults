@@ -65,10 +65,6 @@ set_macos_preferences() {
         success "Added a context menu item for showing the Web Inspector in web views"
         defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
-        success "Disabled the annoying backswipe in Chrome"
-        defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
-        defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
-
         success "Set the printing preferences to quit when finished"
         defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
@@ -78,9 +74,6 @@ set_macos_preferences() {
 
         success "Set to reveal IP address, hostname, OS version, etc. when clicking the clock in the login window"
         sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostsuccess HostName
-
-        success "Set to 24-hour clock"
-        defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d  H:mm:ss'
 
         success "Set the computer to restart automatically on freeze"
         sudo systemsetup -setrestartfreeze on

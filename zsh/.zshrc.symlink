@@ -1,0 +1,11 @@
+export DOTHOME=$HOME/dotfiles
+
+# Load Oh My ZSH!
+if [ -f $DOTHOME/oh-my-zsh/oh-my-zsh.zsh ]; then
+   source $DOTHOME/oh-my-zsh/oh-my-zsh.zsh
+fi
+
+# Execute the stuff common to all shells (well, bash and zsh anyway)
+if [ -f $DOTHOME/system/shellrc ]; then
+   source $DOTHOME/system/shellrc
+fi

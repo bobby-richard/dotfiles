@@ -1,0 +1,19 @@
+{
+  "entries": {
+    "brew": {
+      "nodejs": null
+    }
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "2.2.6",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "8cb6ade9f1739c7136c77f94d9ae389340f5e056",
+        "CLT": "11.0.33.17",
+        "Xcode": "11.3",
+        "macOS": "10.15.3"
+      }
+    }
+  }
+}
