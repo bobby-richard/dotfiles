@@ -11,10 +11,10 @@ export DOTHOME=$HOME/dotfiles
 
 source $DOTHOME/lib/common
 
-# Set MacOS defaults
-if [ -f $DOTHOME/macos/set-defaults ]
+# Set osx defaults
+if [ -f $DOTHOME/osx/set-defaults ]
 then
-    source $DOTHOME/macos/set-defaults
+    source $DOTHOME/osx/set-defaults
     set_macos_preferences
 fi
 

@@ -1,14 +1,11 @@
 [user]
 	name = Bobby Richard
 	email = brichard@baydynamics.com
-[diff]
-	tool = kdiff3
-	guitool = kdiff3
 [merge]
-	tool = kdiff3
-[mergetool "kdiff3"]
-	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
-	trustExitCode = false
-[difftool "kdiff3"]
-	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
-	trustExitCode = false
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE

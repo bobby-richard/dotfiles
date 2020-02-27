@@ -1,1 +1,20 @@
+
+tap 'homebrew/bundle'
+
+brew 'dos2unix'
+brew 'helm'
+brew 'kubectl'
+brew 'maven'
 brew 'nodejs'
+brew 'ripgrep'
+brew 'z'
+
+cask 'adoptopenjdk8'
+cask 'datagrip'
+cask 'docker'
+cask 'dotnet-sdk'
+cask 'intellij-idea-ce'
+cask 'iterm2'
+cask 'postman'
+cask 'powershell'
+cask 'visual-studio-code'
