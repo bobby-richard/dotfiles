@@ -3,6 +3,7 @@ tap 'homebrew/bundle'
 
 brew 'dos2unix'
 brew 'helm'
+brew 'kafkacat'
 brew 'kubectl'
 brew 'maven'
 brew 'nodejs'
