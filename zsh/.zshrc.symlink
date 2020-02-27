@@ -9,3 +9,4 @@ fi
 if [ -f $DOTHOME/system/shellrc ]; then
    source $DOTHOME/system/shellrc
 fi
+eval $(thefuck --alias)
