@@ -188,6 +188,12 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "kdiff3.rb": {
+        "version": null,
+        "options": {
+          "full_name": "https://raw.githubusercontent.com/Homebrew/homebrew-cask/6a96e5ea44803e52a43c0c89242390f75d1581ab/Casks/kdiff3.rb"
+        }
       }
     }
   },
@@ -196,7 +202,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "79aa71f79fc49e3af1679824d6ecc701be3c1ae2",
+        "Homebrew/homebrew-core": "47eace2f818d49ea2bf4f27f2cd6b675ba63f794",
         "CLT": "11.0.33.17",
         "Xcode": "11.3",
         "macOS": "10.15.3"
