@@ -1,5 +1,6 @@
 
 tap 'homebrew/bundle'
+tap 'adoptopenjdk/openjdk'
 
 brew 'dos2unix'
 brew 'helm'
