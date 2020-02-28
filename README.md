@@ -8,7 +8,7 @@ Run this:
 cd ~
 git clone https://github.com/bobby-richard/dotfiles.git ~/dotfiles
 cd ~/dotfiles
-chmod +X **/*.sh
+chmod +x **/*.sh
 ./redot
 ```
 
