@@ -17,5 +17,5 @@ export MANPAGER='less -X';
 # Make Homebrew symlink to the root Applications directory.
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_241.jdk/Contents/Home/"
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/"
 
