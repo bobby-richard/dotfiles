@@ -1,1 +1,1 @@
-export KUBE_EDITOR="code" 
+export KUBE_EDITOR="nano" 
